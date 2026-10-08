@@ -1,5 +1,5 @@
 html {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
 }
 
 p{
@@ -7,7 +7,7 @@ p{
     line-height: 1.5px;
 }
 
-.has-drop-cap:first-letter {
+.has-drop-cap::first-letter {
     initial-letter: 3;
     color: gold;
     margin-right: 10px;
@@ -35,7 +35,7 @@ p{
 
 .caption {
     background-color: #f8f8f8;
-    margin: 0px;
+    margin: 0;
     margin-bottom: 40px;
     border-top: 5px solid #ffbd00;
     font-size: 13px;
@@ -48,3 +48,4 @@ p{
     max-width: 700px;
     margin: 0 auto;
 }
+
